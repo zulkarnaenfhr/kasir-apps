@@ -5,5 +5,14 @@
             "password": "123",
             "name": "Fahri Izzuddin Zulkarnaen"
         }
-    ]
+    ],
+    "MenuTersedia": {
+        "makanan": [
+            {
+                "id": "Mkn-01",
+                "nama": "Nasi Goreng",
+                "harga": "15.000"
+            }
+        ]
+    }
 }

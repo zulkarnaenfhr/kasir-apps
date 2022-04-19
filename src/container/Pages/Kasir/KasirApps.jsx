@@ -33,7 +33,31 @@ class Kasirappschild extends Component {
                 <div className="KasirApps-Navbar-Container">
                     <Kasirappsnavbar />
                 </div>
-                <div className="KasirApps-Content-Container">
+                <div className="KasirApps-Content-Container row">
+                    <div
+                        style={{
+                            border: "1px solid red",
+                        }}
+                        className="KasirApps-Content-Left-Container"
+                    >
+                        <h1 className="KasirApps-Content-Title KasirApps-Content-Left-Title">Menu Category</h1>
+                    </div>
+                    <div
+                        style={{
+                            border: "1px solid red",
+                        }}
+                        className="KasirApps-Content-Middle-Container"
+                    >
+                        <h1 className="KasirApps-Content-Title">Daftar Menu</h1>
+                    </div>
+                    <div
+                        style={{
+                            border: "1px solid red",
+                        }}
+                        className="KasirApps-Content-Right-Container"
+                    >
+                        <h1 className="KasirApps-Content-Title">Keranjang Kamu</h1>
+                    </div>
                     <h1>masuk</h1>
                     <button
                         onClick={() => {

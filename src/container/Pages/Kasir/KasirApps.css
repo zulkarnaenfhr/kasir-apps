@@ -5,5 +5,24 @@
 }
 
 .KasirApps-Content-Container {
-    padding-top: 100px;
+    padding-top: 70px;
+    display: flex;
+}
+
+.KasirApps-Content-Left-Container {
+    width: 18%;
+    padding-left: 20px;
+}
+
+.KasirApps-Content-Middle-Container {
+    width: 64%;
+}
+
+.KasirApps-Content-Right-Container {
+    width: 18%;
+}
+
+.KasirApps-Content-Title {
+    font-family: poppins-500;
+    font-size: 20px;
 }
