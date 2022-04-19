@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/kasir-apps/static/js/main.0d5133c5.js",
+    "static/js/787.72a4b26b.chunk.js": "/kasir-apps/static/js/787.72a4b26b.chunk.js",
+    "index.html": "/kasir-apps/index.html",
+    "main.0d5133c5.js.map": "/kasir-apps/static/js/main.0d5133c5.js.map",
+    "787.72a4b26b.chunk.js.map": "/kasir-apps/static/js/787.72a4b26b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0d5133c5.js"
+  ]
+}
