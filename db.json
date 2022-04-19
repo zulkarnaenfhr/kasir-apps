@@ -2,7 +2,8 @@
     "AdminData": [
         {
             "id": "zulkarnaenfhr",
-            "password": "123"
+            "password": "123",
+            "name": "Fahri Izzuddin Zulkarnaen"
         }
     ]
 }

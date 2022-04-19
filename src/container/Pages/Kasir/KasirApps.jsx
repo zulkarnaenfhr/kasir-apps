@@ -1,5 +1,7 @@
 import React, { Component, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { API } from "../../../services";
+import "./KasirApps.css";
 
 class Kasirappschild extends Component {
     constructor(props) {
@@ -7,15 +9,29 @@ class Kasirappschild extends Component {
 
         this.state = {
             dataLogin: "",
+            dataAdmin: "",
         };
+        this.handleGetAdminData = this.handleGetAdminData.bind(this);
     }
+    handleGetAdminData = () => {
+        API.getAdminData(this.state.dataLogin.state.username).then(async (result) => {
+            this.setState({
+                dataAdmin: result.data,
+            });
+        });
+    };
     async componentDidMount() {
         await this.setState({
             dataLogin: this.props.data,
         });
+        this.handleGetAdminData();
     }
     render() {
-        return <div>KasirApps</div>;
+        return (
+            <div>
+                <h1>masuk</h1>
+            </div>
+        );
     }
 }
 
