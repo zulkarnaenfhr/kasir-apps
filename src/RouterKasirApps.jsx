@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route, Routes } from "react-router";
 import Login from "./container/Pages/Admin/Log in/Login";
+import Kasirapps from "./container/Pages/Kasir/KasirApps";
 
 class Routerkasirapps extends Component {
     render() {
@@ -8,6 +9,7 @@ class Routerkasirapps extends Component {
             <div>
                 <Routes>
                     <Route path="/kasir-apps/" exact element={<Login />} />
+                    <Route path="/kasir-apps/kasir" exact element={<Kasirapps />} />
                     <Route
                         path="*"
                         element={
