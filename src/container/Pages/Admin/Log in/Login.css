@@ -1,0 +1,46 @@
+#Login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #76b852;
+}
+
+.Login-Container {
+    height: auto;
+    width: 400px;
+    padding: 45px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Login-Form-Container > input {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.Login-Form-Container > input::placeholder {
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.Login-Form-Container > button {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    background: #4caf50;
+    border: 1px solid transparent;
+    transition: all 0.4s ease-in-out;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+}
+
+.Login-Form-Container > button:hover {
+    background: #399e3c;
+}

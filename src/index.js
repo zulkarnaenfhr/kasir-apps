@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Kasirapps from "./KasirApps";
+import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
+import Routerkasirapps from "./RouterKasirApps";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        <Kasirapps />
+        <BrowserRouter>
+            <Routerkasirapps />
+        </BrowserRouter>
     </React.StrictMode>
 );
 
