@@ -1,5 +1,6 @@
 import React, { Component, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import Kasirappsnavbar from "../../../components/Navbar/KasirAppsNavbar";
 import { API } from "../../../services";
 import "./KasirApps.css";
 
@@ -28,8 +29,20 @@ class Kasirappschild extends Component {
     }
     render() {
         return (
-            <div>
-                <h1>masuk</h1>
+            <div id="KasirApps">
+                <div className="KasirApps-Navbar-Container">
+                    <Kasirappsnavbar />
+                </div>
+                <div className="KasirApps-Content-Container">
+                    <h1>masuk</h1>
+                    <button
+                        onClick={() => {
+                            console.log(this.state.dataAdmin);
+                        }}
+                    >
+                        cek state
+                    </button>
+                </div>
             </div>
         );
     }

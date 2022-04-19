@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Route, Routes } from "react-router";
 import Login from "./container/Pages/Admin/Log in/Login";
 import Kasirapps from "./container/Pages/Kasir/KasirApps";
+import "./components/Fonts Face/FontFace.css";
 
 class Routerkasirapps extends Component {
     render() {

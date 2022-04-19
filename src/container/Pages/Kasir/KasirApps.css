@@ -1,0 +1,9 @@
+.KasirApps-Navbar-Container {
+    width: 100vw;
+    top: 0;
+    position: fixed;
+}
+
+.KasirApps-Content-Container {
+    padding-top: 100px;
+}
