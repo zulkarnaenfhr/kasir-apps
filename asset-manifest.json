@@ -1,12 +1,18 @@
 {
   "files": {
-    "main.js": "/kasir-apps/static/js/main.0d5133c5.js",
+    "main.css": "/kasir-apps/static/css/main.63774c24.css",
+    "main.js": "/kasir-apps/static/js/main.8bc34d59.js",
     "static/js/787.72a4b26b.chunk.js": "/kasir-apps/static/js/787.72a4b26b.chunk.js",
+    "static/media/Poppins-Light.ttf": "/kasir-apps/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/kasir-apps/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/kasir-apps/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "index.html": "/kasir-apps/index.html",
-    "main.0d5133c5.js.map": "/kasir-apps/static/js/main.0d5133c5.js.map",
+    "main.63774c24.css.map": "/kasir-apps/static/css/main.63774c24.css.map",
+    "main.8bc34d59.js.map": "/kasir-apps/static/js/main.8bc34d59.js.map",
     "787.72a4b26b.chunk.js.map": "/kasir-apps/static/js/787.72a4b26b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0d5133c5.js"
+    "static/css/main.63774c24.css",
+    "static/js/main.8bc34d59.js"
   ]
 }
